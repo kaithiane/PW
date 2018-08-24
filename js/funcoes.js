@@ -6,6 +6,18 @@ function imagemTroca() {
 	document.getElementById("myImage").src="img/js-logo-badge-512.png";
 }
 
-function trocaFonte() {
+function trocaFonteMaior() {
 	document.getElementById("demo").style.fontSize="35px";
+}
+
+function trocaFonteMenor() {
+	document.getElementById("demo").style.fontSize="16px";
+}
+
+function olcutarElemento() {
+	document.getElementById("demo").style.display="none";
+}
+
+function mostrarElemento() {
+	document.getElementById("demo").style.display="block";
 }
