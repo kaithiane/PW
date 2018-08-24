@@ -21,3 +21,7 @@ function olcutarElemento() {
 function mostrarElemento() {
 	document.getElementById("demo").style.display="block";
 }
+
+function calcularElemento() {
+	document.getElementById("demo").innerHTML = document.getElementById("num1").value * document.getElementById("num2").value;
+}
